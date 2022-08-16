@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+@layer base {
+  html {
+    /* font-family: 'Nunito Sans', system-ui, sans-serif; */
+    font-size: 14px;
+  }
+}
+
+@layer components {
+  body {
+    color: black;
+    @apply bg-pastel
+  }
+
+  .page-header {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  .mask {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+  }
+
+  .main {
+    min-height: calc(100vh - 328px);
+  }
+
+  h1 {
+    @apply font-bold text-7xl;
+  }
+
+  h2 {
+    @apply font-semibold text-5xl;
+  }
+
+  h3 {
+    @apply font-semibold text-3xl;
+  }
+
+  h4 {
+    @apply font-semibold text-xl;
+  }
+
+  h5 {
+    @apply font-medium text-lg;
+  }
+
+  h6 {
+    @apply font-medium;
+  }
+
+
+  .nav-btn {
+    @apply rounded-md px-6 py-2 hover:-translate-y-1 hover:bg-opacity-75 ease-linear duration-300 flex space-x-2 items-center font-semibold text-sm cursor-pointer whitespace-nowrap text-center
+  }
+
+  .btn {
+    @apply rounded-md px-6 py-2 hover:-translate-y-1 hover:bg-opacity-75 ease-linear duration-300 flex space-x-2 items-center font-semibold cursor-pointer whitespace-nowrap text-center
+  }
+
+  .btn-lg {
+    @apply px-8 py-5
+  }
+
+  .card {
+    @apply rounded-xl p-8 
+  }
+
+  .text-upright {
+    writing-mode: vertical-lr;
+  }
+
+  .custom-input{
+    @apply px-3 py-2 h-[48px] bg-pastel/10 border shadow-sm border-pastel/20 placeholder-pastel/50 focus:bg-transparent focus:outline-none focus:border-pastel required:border-red-500 active:bg-transparent autofill:bg-pastel/10 block w-full rounded-md sm:text-sm
+  }
+}
