@@ -15,9 +15,11 @@ const Hero = () => {
                     <div className="text-left sm:text-center max-w-3xl mx-auto">
                         <div className="text-6xl sm:text-6xl mb-4 font-semibold overflow-visible">
                             <span>Taking the</span>
-                            <span className='relative h-auto overflow-visible'>
-                                <StaticImage className='absolute h-full' src="../images/bg/4.png" height="65" />
-                                <span className='px-7'>Gospel</span> </span> <span>to the ends of the Earth</span>
+                            <span className='relative h-auto gospel'>
+                                <span className='px-2'>Gospel</span>
+                                 </span> 
+                                
+                                <span>to the ends of the Earth</span>
                         </div>
                         <p className="mb-8 tracking-wide text-justify sm:text-center text-gray-600 text-lg">
                             We are on a mission to help Believers in tech thrive and make impact for the Gospel by providing a platform for new and old to get inspired by the stories and journey of others, learn and take action while at it.
