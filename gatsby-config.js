@@ -40,11 +40,5 @@ module.exports = {
         icon: `src/images/BiT-Logo.png`, // This path is relative to the root of the site.
       },
     },
-     {
-      resolve: "gatsby-source-revue",
-      options: {
-        token: process.env.GATSBY_REVUE_TOKEN,
-      },
-    },
   ],
 }
