@@ -14,8 +14,8 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Navbar({ location }) {
   const routes = [
-    { label: "About", to: "/about", icon: BsInfoCircleFill },
-    { label: "Bytes", to: "/blog", icon: SiByte },
+    { label: "About", to: "/about-us", icon: BsInfoCircleFill },
+    { label: "Bytes", to: "/bytes", icon: SiByte },
     { label: "Community", to: "/community", icon: HiOutlineUserGroup },
   ];
 

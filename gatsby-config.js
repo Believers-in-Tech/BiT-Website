@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 module.exports = {
   siteMetadata: {
     title: `Believer's in Tech`,
@@ -35,6 +38,12 @@ module.exports = {
         theme_color: `#F0EBE8`,
         display: `minimal-ui`,
         icon: `src/images/BiT-Logo.png`, // This path is relative to the root of the site.
+      },
+    },
+     {
+      resolve: "gatsby-source-revue",
+      options: {
+        token: process.env.GATSBY_REVUE_TOKEN,
       },
     },
   ],

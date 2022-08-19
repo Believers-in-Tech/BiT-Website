@@ -10,24 +10,30 @@ import Subscribe from '../components/Subscribe'
 const Hero = () => {
     return (
         <section className="max-h-[100vh] overflow-clip">
-            <div className="px-4 md:py-32 py-40">
+            <div className="px-4 pt-16 pb-40 md:py-32">
                 <div className="flex">
                     <div className="text-left sm:text-center max-w-3xl mx-auto">
-                        <div className="text-6xl sm:text-6xl mb-4 font-semibold overflow-visible">
+                        <div className="text-5xl sm:text-6xl mb-4 font-semibold overflow-visible">
                             <span>Taking the</span>
                             <span className='relative h-auto gospel'>
                                 <span className='px-2'>Gospel</span>
-                                 </span> 
-                                
-                                <span>to the ends of the Earth</span>
+                            </span>
+                            <span>to the ends of the Earth</span>
                         </div>
                         <p className="mb-8 tracking-wide text-justify sm:text-center text-gray-600 text-lg">
-                            We are on a mission to help Believers in tech thrive and make impact for the Gospel by providing a platform for new and old to get inspired by the stories and journey of others, learn and take action while at it.
+                            We are on a mission to take the gospel to the ends of the earth through tech.
+                            Would you like to know how?
+
                         </p>
                         <div className="flex sm:justify-center justify-start gap-2 sm:gap-6">
-                            <Link to="/about-us" aria-label="Join the Community" >
+                            <Link to="/community" aria-label="Join the Community" >
                                 <button aria-label="Join the Community" className="btn bg-black btn-lg text-white mx-auto lg:mx-0">
                                     <span>Join the Community</span> <HiOutlineChevronRight size="20" />
+                                </button>
+                            </Link>
+                            <Link to="/about-us" aria-label="Learn More" >
+                                <button aria-label="Learn More" className="btn bg-pastel  btn-lg text-dark mx-auto lg:mx-0">
+                                    <span>Learn More</span>
                                 </button>
                             </Link>
                         </div>
@@ -72,7 +78,7 @@ const SectionTwo = () => {
                     <div className="card md:row-span-5 col-span-1 relative bg-cover bg-center bg-inspire flex items-end">
                         <div className='z-10 text-pastel'>
                             <h2 className='mb-2'>Inspire</h2>
-                            <p className="mb-8 text-xl">Document the journey of Christian techies making a difference in their positions.</p>
+                            <p className="mb-8 text-xl">Documenting the journey of Christian techies that are making a difference in their positions.</p>
                             <Link to="/about-us" aria-label="Get Inspired" >
                                 <button aria-label="Get Inspired" className="btn bg-secondary text-white">
                                     <span>Get Inspired</span>
@@ -82,7 +88,7 @@ const SectionTwo = () => {
                         <div className="mask bg-gradient-to-r from-black to-dark card opacity-70"></div>
                     </div>
                     <div className="card col-span-2 row-span-2  bg-[url(../images/bg/2.png)] bg-contain bg-no-repeat bg-right-bottom flex relative">
-                        <div className='text-dark '>
+                        <div className='z-10 text-dark '>
                             <h3>Community</h3>
                             <p className="mb-8 max-w-[12rem] sm:max-w-xs md:max-w-md">Building a community of Christian techies, dedicated to excellence and consistency.</p>
                             <Link to="/about-us" aria-label="Find a unit" >
