@@ -79,7 +79,7 @@ const SectionTwo = () => {
                         <div className='z-10 text-pastel'>
                             <h2 className='mb-2'>Inspire</h2>
                             <p className="mb-8 text-xl">Documenting the journey of Christian techies that are making a difference in their positions.</p>
-                            <Link to="/about-us" aria-label="Get Inspired" >
+                            <Link to="/bytes" aria-label="Get Inspired" >
                                 <button aria-label="Get Inspired" className="btn bg-secondary text-white">
                                     <span>Get Inspired</span>
                                 </button>
@@ -91,7 +91,7 @@ const SectionTwo = () => {
                         <div className='z-10 text-dark '>
                             <h3>Community</h3>
                             <p className="mb-8 max-w-[12rem] sm:max-w-xs md:max-w-md">Building a community of Christian techies, dedicated to excellence and consistency.</p>
-                            <Link to="/about-us" aria-label="Find a unit" >
+                            <Link to="/community" aria-label="Find a unit" >
                                 <button aria-label="Find a unit" className="btn bg-black text-white">
                                     <span>Find a unit</span>
                                 </button>

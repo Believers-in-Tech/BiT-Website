@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 import { AppService } from '../utils/services';
 
+
 const Subscribe = () => {
     const [inputs, setInputs] = React.useState({});
     const [loading, setLoading] = React.useState(false);
@@ -34,7 +35,7 @@ const Subscribe = () => {
     return (
         <section className="bg-dark text-white py-16">
             <div className="max-w-7xl mx-auto container px-4">
-                <div className="flex flex-col sm:flex-row gap-4 justify-between items-start">
+                <div className="flex flex-col md:flex-row gap-8 justify-between items-start">
                     <div className='max-w-sm'>
                         <h3>Subscribe to our newsletter</h3>
                         <p>Sign up to receive updates about our events and new bytes.</p>
@@ -57,28 +58,6 @@ const Subscribe = () => {
 
                     </div>
                 </div>
-                {/* <div>
-                    <div id="revue-embed">
-                        <form action="https://www.getrevue.co/profile/believersintech/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
-                            <div className="revue-form-group">
-                                <label for="member_email">Email address</label>
-                                <input className="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email" />
-                            </div>
-                            <div className="revue-form-group">
-                                <label for="member_first_name">First name <span className="optional">(Optional)</span></label>
-                                <input className="revue-form-field" placeholder="First name... (Optional)" type="text" name="member[first_name]" id="member_first_name" />
-                            </div>
-                            <div className="revue-form-group">
-                                <label for="member_last_name">Last name <span className="optional">(Optional)</span></label>
-                                <input className="revue-form-field" placeholder="Last name... (Optional)" type="text" name="member[last_name]" id="member_last_name" />
-                            </div>
-                            <div className="revue-form-actions">
-                                <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" />
-                            </div>
-                           
-                        </form>
-                    </div>
-                </div> */}
             </div>
         </section>
     )

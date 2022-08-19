@@ -16,7 +16,7 @@ const Hero = () => {
                     <div className="w-full sm:order-last">
                         <img src={Six} className="w-full" height="500" alt="BiT Community" />
                     </div>
-                    <div className="text-left max-w-xl">
+                    <div className="text-left max-w-lg">
                         <h4 className="mb-4 text-dark">We are a community of God’s battle axes, in (one of) the most influential spaces of the present and future generations. We are on a mission to help Believers in tech thrive and make an impact for the sake of the gospel. Our platform empowers believers within the tech space by providing a community where we can learn from and inspire one another to use our skillset for the fulfilment of our purpose.</h4>
                         <h6 className='mb-8'>Will you join us as we go into all the world with tech to preach the Gospel?</h6>
                         <div className="flex justify-start gap-2 sm:gap-6">

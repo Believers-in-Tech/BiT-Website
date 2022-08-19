@@ -35,7 +35,7 @@ export default function Navbar({ location }) {
   return (
     <div className="sticky top-0 z-40 w-full backdrop-blur bg-pastel flex-none transition-colors duration-500 lg:z-50">
       <div className="max-w-7xl mx-auto container px-4">
-        <div className=" py-6">
+        <div className="py-6">
           <div className="relative flex items-center">
             <Link
               to="/"

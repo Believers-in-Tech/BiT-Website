@@ -1,5 +1,5 @@
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.${process.env.NODE_ENV || process.env.GATSBY_VERCEL_ENV}`,
 });
 module.exports = {
   siteMetadata: {
@@ -39,6 +39,6 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/BiT-Logo.png`, // This path is relative to the root of the site.
       },
-    },
+    }
   ],
 }

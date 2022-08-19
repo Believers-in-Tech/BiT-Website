@@ -1,45 +1,45 @@
-import { authHeader } from "../helpers/auth-header";
-import { handleResponse } from "../helpers/handle-response";
+import { authHeader } from "./auth-header";
+import { handleResponse } from "./handle-response";
 
 
 export class ApiClientHelper {
     
-    public static getForPromise = (url: string) => {
-        const requestOptions = { method: 'GET', headers: authHeader() }
-        return fetch(url, requestOptions as any)
+    static getForPromise = (url) => {
+        const requestOptions = {headers: authHeader(), mode: 'cors' }
+        return fetch(url, requestOptions)
             .then(handleResponse).catch(handleResponse)
     }
 
-    public static postForPromise = (url: string, params: any) => {
+    static postForPromise = (url, params) => {
         const requestOptions = {
             method: 'POST',
             headers: { ...authHeader(), "Content-Type": "application/json" },
             body: JSON.stringify(params)
         };
 
-        return fetch(url, requestOptions as any)
+        return fetch(url, requestOptions)
             .then(handleResponse).catch(handleResponse)
     }
 
-    public static putForPromise = (url: string, params: any) => {
+    static putForPromise = (url, params) => {
         const requestOptions = {
             method: 'PUT',
             headers: { ...authHeader(), "Content-Type": "application/json" },
             body: JSON.stringify(params)
         };
 
-        return fetch(url, requestOptions as any)
+        return fetch(url, requestOptions)
             .then(handleResponse).catch(handleResponse)
     }
 
-    public static deleteForPromise = (url: string, params?: any) => {
+    static deleteForPromise = (url, params) => {
         const requestOptions = {
             method: 'DELETE',
             headers: { ...authHeader(), "Content-Type": "application/json" },
             body: JSON.stringify(params)
         };
 
-        return fetch(url, requestOptions as any)
+        return fetch(url, requestOptions)
             .then(handleResponse).catch(handleResponse)
     }
 

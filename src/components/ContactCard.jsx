@@ -29,8 +29,8 @@ export const ContactCard = () => {
       to get assistance with all your enquiries. We'd be more than happy to answer your questions.
     </p>
     <Link target={'_blank'} to="https://www.instagram.com/believersintech" >
-      <button aria-label="Contact Us" className="btn bg-dark text-white mx-auto px-8 py-4">
-      <span>Contact Us</span> <HiOutlineChevronRight size="18" />
+      <button aria-label="Send Us a DM" className="btn bg-dark text-white mx-auto px-8 py-4">
+      <span>Send Us a DM</span>
       </button>
     </Link>
   </div>
