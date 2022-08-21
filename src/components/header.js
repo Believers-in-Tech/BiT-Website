@@ -47,7 +47,7 @@ export default function Navbar({ location }) {
                 height={40}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
-                alt=""
+                alt="BiT Logo"
                 className=""
               />
             </Link>
@@ -71,7 +71,7 @@ export default function Navbar({ location }) {
 
               <nav className="ml-6">
                 <ul className="flex align-middle space-x-4">
-                  {socials.map((item) => {
+                  {socials.map((item, i) => {
                     return (
                       <li key={item.label}>
                         <a

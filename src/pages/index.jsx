@@ -5,7 +5,7 @@ import { HiOutlineChevronRight } from 'react-icons/hi'
 import ContactCard from '../components/ContactCard'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
-import Subscribe from '../components/Subscribe'
+import SubscribeStatic from '../components/SubscribeStatic'
 
 const Hero = () => {
     return (
@@ -43,10 +43,10 @@ const Hero = () => {
             <div className="md:-mt-64 -mt-28">
                 <div className="flex justify-between">
                     <div className="">
-                        <StaticImage src="../images/bg/1.png" height="300" />
+                        <StaticImage alt="Illustration 1" src="../images/bg/1.png" height="300" />
                     </div>
                     <div className="">
-                        <StaticImage src="../images/bg/2.png" height="300" />
+                        <StaticImage alt="Illustration 2" src="../images/bg/2.png" height="300" />
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ const IndexPage = () => (
         <SectionOne />
         <SectionTwo />
         <ContactCard />
-        <Subscribe />
+        <SubscribeStatic />
     </Layout>
 )
 

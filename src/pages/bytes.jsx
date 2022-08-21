@@ -1,8 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
-import Subscribe from '../components/Subscribe'
-import { AppService } from '../utils/services';
+import SubscribeStatic from '../components/SubscribeStatic'
 
 
 const Hero = () => {
@@ -28,18 +27,7 @@ const Hero = () => {
 }
 
 const Issues = () => {
-
-    React.useEffect(() => {
-
-        AppService.getIssues().then((res)=> {
-            console.log(res)
-        })
-
-    }, [])
-
-
     return <div></div>
-
 }
 
 
@@ -48,7 +36,7 @@ const BytesPage = () => (
         <Seo title="Bytes" />
         <Hero />
         <Issues />
-        <Subscribe />
+        <SubscribeStatic />
     </Layout>
 )
 

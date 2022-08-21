@@ -18,7 +18,7 @@ const Footer = () => {
                 height={30}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
-                alt=""
+                alt="BiT Footer Logo"
                 className=""
               />
             </Link>

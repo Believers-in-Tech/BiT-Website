@@ -2,7 +2,7 @@ import React from 'react'
 import ContactCard from '../components/ContactCard'
 import Seo from '../components/seo'
 import Layout from '../components/layout'
-import Subscribe from '../components/Subscribe'
+import SubscribeStatic from '../components/SubscribeStatic'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 import { HiOutlineChevronRight } from 'react-icons/hi'
@@ -84,21 +84,21 @@ const Visioners = () => {
                 <h2 className="text-dark font-bold font-sans mb-16 text-center">Meet the Visioners</h2>
                 <div className="grid md:grid-cols-3 gap-8">
                     <div className='text-center'>
-                        <StaticImage src="../images/vis/love-ad.jpg" className='rounded-full' height="250" />
+                        <StaticImage src="../images/vis/love-ad.jpg" alt='Love Adeosun' className='rounded-full' height="250" />
                         <div className="mt-4">
                             <h4>Love Adeosun</h4>
                             <p>Project Coordinator</p>
                         </div>
                     </div>
                     <div className='text-center'>
-                        <StaticImage src="../images/vis/shalom.jpg" className='rounded-full' height="250" />
+                        <StaticImage src="../images/vis/shalom.jpg" alt='Shalom Olomolaiye' className='rounded-full' height="250" />
                         <div className="mt-4">
                             <h4>Shalom Olomolaiye</h4>
                             <p>Back-end Developer</p>
                         </div>
                     </div>
                     <div className='text-center'>
-                        <StaticImage src="../images/vis/love-ak.jpg" className='rounded-full' height="250" />
+                        <StaticImage src="../images/vis/love-ak.jpg" alt='Love Akinlesi' className='rounded-full' height="250" />
                         <div className="mt-4">
                             <h4>Love Akinlesi</h4>
                             <p>Front-end Developer</p>
@@ -119,7 +119,7 @@ const AboutPage = () => (
         <Visioners />
         <AboutUs />
         <ContactCard />
-        <Subscribe />
+        <SubscribeStatic />
     </Layout>
 )
 
