@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Believer's in Tech`,
     description: `We are on a mission to help Believers in tech thrive and make impact for the Gospel by providing a platform for new and old to get inspired by the stories and journey of others, learn and take action while at it.`,
-    author: `@believers_tech`,
+    author: `@join_bit`,
     siteUrl: `https://believersin.tech/`,
   },
   plugins: [

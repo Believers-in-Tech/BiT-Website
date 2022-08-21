@@ -19,15 +19,15 @@ export const ContactCard = () => {
             >
               hello@believersin.tech
             </a>{" "} or just send us a DM on instagram  <a
-              href="https://instagram.com/believersintech"
+              href="https://instagram.com/join_bit"
               className="text-primary font-bold"
             >
-              @believersintech
+              @join_bit
             </a>{" "}
             to get assistance with all your enquiries. We'd be more than happy to answer your questions.
           </p>
           <a
-            href="https://www.instagram.com/believersintech"
+            href="https://www.instagram.com/join_bit"
             target="_blank"
             rel="noreferrer"
             className="py-2 rounded-md text-black"
