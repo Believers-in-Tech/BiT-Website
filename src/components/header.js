@@ -22,12 +22,12 @@ export default function Navbar({ location }) {
   const socials = [
     {
       label: "Twitter",
-      link: "https://twitter.com/believers_tech",
+      link: "https://twitter.com/join_bit",
       icon: RiTwitterFill,
     },
     {
       label: "Instagram",
-      link: "https://www.instagram.com/believersintech/",
+      link: "https://www.instagram.com/join_bit/",
       icon: RiInstagramLine,
     }
   ];
