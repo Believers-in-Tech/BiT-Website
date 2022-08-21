@@ -39,6 +39,14 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/BiT-Logo.png`, // This path is relative to the root of the site.
       },
-    }
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-MRCM5LV",
+        includeInDevelopment: false,
+        enableWebVitalsTracking: true,
+      },
+    },
   ],
 }
