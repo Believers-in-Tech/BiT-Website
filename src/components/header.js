@@ -14,8 +14,8 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Navbar({ location }) {
   const routes = [
-    { label: "About", to: "/about", icon: BsInfoCircleFill },
-    { label: "Bytes", to: "/blog", icon: SiByte },
+    { label: "About", to: "/about-us", icon: BsInfoCircleFill },
+    { label: "Bytes", to: "/bytes", icon: SiByte },
     { label: "Community", to: "/community", icon: HiOutlineUserGroup },
   ];
 
@@ -35,7 +35,7 @@ export default function Navbar({ location }) {
   return (
     <div className="sticky top-0 z-40 w-full backdrop-blur bg-pastel flex-none transition-colors duration-500 lg:z-50">
       <div className="max-w-7xl mx-auto container px-4">
-        <div className=" py-6">
+        <div className="py-6">
           <div className="relative flex items-center">
             <Link
               to="/"
@@ -47,7 +47,7 @@ export default function Navbar({ location }) {
                 height={40}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
-                alt=""
+                alt="BiT Logo"
                 className=""
               />
             </Link>
@@ -71,7 +71,7 @@ export default function Navbar({ location }) {
 
               <nav className="ml-6">
                 <ul className="flex align-middle space-x-4">
-                  {socials.map((item) => {
+                  {socials.map((item, i) => {
                     return (
                       <li key={item.label}>
                         <a

@@ -47,6 +47,7 @@ module.exports = {
       backgroundImage: {
         'five': "url('../images/bg/5.png')",
         'seven': "url('../images/bg/7.svg')",
+        'eight': "url('../images/bg/8.svg')",
         'inspire': "url('https://images.unsplash.com/photo-1600363740518-6812785e6814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80')",
         'evangelism': "url('https://images.unsplash.com/photo-1636300780710-bd19649fc8a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3262&q=80')",
       }
