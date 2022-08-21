@@ -20,7 +20,7 @@ const Hero = () => {
                         <h4 className="mb-4 text-dark">We are a community of God’s battle axes, in (one of) the most influential spaces of the present and future generations. We are on a mission to help Believers in tech thrive and make an impact for the sake of the gospel. Our platform empowers believers within the tech space by providing a community where we can learn from and inspire one another to use our skillset for the fulfilment of our purpose.</h4>
                         <h6 className='mb-8'>Will you join us as we go into all the world with tech to preach the Gospel?</h6>
                         <div className="flex justify-start gap-2 sm:gap-6">
-                            <Link to="/about-us" aria-label="Join the Community" >
+                            <Link to="/community" aria-label="Join the Community" >
                                 <button aria-label="Join the Community" className="btn bg-black btn-lg text-pastel mx-auto lg:mx-0">
                                     <span>Join the Community</span> <HiOutlineChevronRight size="20" />
                                 </button>
