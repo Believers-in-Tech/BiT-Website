@@ -3,7 +3,7 @@ require("dotenv").config({
 });
 module.exports = {
   siteMetadata: {
-    title: `Believer's in Tech`,
+    title: `Believers in Tech`,
     description: `We are on a mission to help Believers in tech thrive and make impact for the Gospel by providing a platform for new and old to get inspired by the stories and journey of others, learn and take action while at it.`,
     author: `@join_bit`,
     siteUrl: `https://believersin.tech/`,
@@ -31,7 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Believer's in Tech`,
+        name: `Believers in Tech`,
         short_name: `BiT`,
         start_url: `/`,
         background_color: `#F0EBE8`,

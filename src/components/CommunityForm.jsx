@@ -135,7 +135,7 @@ const CommunityForm = () => {
                 <div className="flex">
                     <div className='mt-16'>
                         <h3>Yayyyy! You're in.</h3>
-                        <h5>Welcome to the Believer's in Tech Community. We'd send you an email shortly with more information.</h5>
+                        <h5>Welcome to the Believers in Tech Community. We'd send you an email shortly with more information.</h5>
                     </div>
                 </div>
             </div>}
